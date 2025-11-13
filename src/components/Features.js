@@ -35,17 +35,17 @@ const Features = () => {
     {
       icon: '🎯',
       title: 'Proactive Disruption',
-      description: 'ScamShield detects scam calls and texts at the source and engages attackers before they reach real victims. Our army of AI bots disrupt conversations in real-time - misleading scammers, wasting their time, and derailing fraud attempts.'
+      description: 'VishShield detects scam calls and texts at the source and engages attackers before they reach real victims. Our army of AI bots disrupt conversations in real-time - misleading scammers, wasting their time, and derailing fraud attempts.'
     },
     {
       icon: '🔍',
       title: 'Real-Time Intelligence Extraction',
-      description: "Every scam attempt becomes a rich source of intelligence. ScamShield captures scammers' tactics and attack vectors as they unfold, including bank account details, crypto wallet addresses, phone numbers, and more."
+      description: "Every scam attempt becomes a rich source of intelligence. VishShield captures scammers' tactics and attack vectors as they unfold, including bank account details, crypto wallet addresses, phone numbers, and more."
     },
     {
       icon: '📈',
       title: 'Actionable Insights',
-      description: 'We turn raw scam activity into clear, strategic insight. With customisable dashboards, alerts, and analytics built for decision-making, ScamShield empowers teams to stay ahead of evolving threats.'
+      description: 'We turn raw scam activity into clear, strategic insight. With customisable dashboards, alerts, and analytics built for decision-making, VishShield empowers teams to stay ahead of evolving threats.'
     }
   ];
 

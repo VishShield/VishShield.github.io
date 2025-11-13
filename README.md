@@ -1,23 +1,72 @@
-# ScamShield AI - Modern React Website with 3D Models
+# VishShield AI
 
-🎉 **Upgraded to React with 3D Models and Dark/Light Theme!**
+> Modern AI-powered fraud prevention platform with interactive 3D visualizations
 
-A stunning, fully responsive website built with React, featuring:
-- 🎭 **Interactive 3D Models** (React Three Fiber)
-- 🌓 **Dark/Light Theme Toggle** with smooth transitions
-- ✨ **Advanced Animations** (Framer Motion)
-- 📱 **Fully Responsive Design**
-- ⚡ **High Performance** optimizations
+[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://vishshield.github.io)
+[![React](https://img.shields.io/badge/React-18.2-blue)](https://reactjs.org/)
+[![Three.js](https://img.shields.io/badge/Three.js-0.163-green)](https://threejs.org/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-![React](https://img.shields.io/badge/React-18.2-blue)
-![Three.js](https://img.shields.io/badge/Three.js-0.163-green)
-![Framer Motion](https://img.shields.io/badge/Framer%20Motion-11.0-purple)
+## 🌐 Live Website
 
-## 🚀 Quick Start
+**https://vishshield.github.io**
 
-### Installation
+## 🎯 Overview
+
+VishShield AI is a next-generation fraud prevention and intelligence platform that combats scams through AI-powered conversational bots. Our technology proactively engages scammers, disrupts their operations, and extracts valuable intelligence to protect businesses and consumers.
+
+## ✨ Key Features
+
+### 🎭 Interactive 3D Visualizations
+- Animated 3D sphere in hero section with distortion effects
+- Four rotating geometric shapes in ecosystem section
+- GPU-accelerated WebGL rendering
+- Mouse-controlled camera interactions
+
+### 🌓 Dark/Light Theme
+- Seamless theme switching
+- Persistent user preference (localStorage)
+- Optimized color schemes for both modes
+- Smooth CSS transitions
+
+### ✨ Smooth Animations
+- Scroll-triggered animations powered by Framer Motion
+- Interactive hover effects on all elements
+- Tab switching with slide transitions
+- Accordion-style FAQ with smooth expansion
+
+### 📱 Fully Responsive
+- Mobile-first design approach
+- Touch-friendly interactions
+- Optimized for all screen sizes (320px+)
+- Progressive Web App ready
+
+## 🚀 Technology Stack
+
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| **React** | 18.2.0 | UI Framework |
+| **Three.js** | 0.163.0 | 3D Graphics Engine |
+| **React Three Fiber** | 8.16.2 | React renderer for Three.js |
+| **@react-three/drei** | 9.105.4 | 3D helpers and abstractions |
+| **Framer Motion** | 11.0.28 | Animation library |
+| **React Icons** | 5.0.1 | Icon components |
+
+## 📦 Installation
+
+### Prerequisites
+- Node.js 14.0 or higher
+- npm 6.0 or higher
+
+### Setup
 
 ```bash
+# Clone the repository
+git clone https://github.com/VishShield/VishShield.github.io.git
+
+# Navigate to project directory
+cd VishShield.github.io
+
 # Install dependencies
 npm install
 
@@ -25,80 +74,49 @@ npm install
 npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the website.
+The application will open at `http://localhost:3000`
 
-### Build for Production
+## 🛠️ Available Scripts
 
 ```bash
+# Start development server
+npm start
+
+# Build for production
 npm run build
+
+# Run tests
+npm test
+
+# Deploy to GitHub Pages
+npm run deploy
 ```
 
-## ✨ Key Features
-
-### 🎨 Theme System
-- **Persistent dark/light mode** saved to localStorage
-- **Smooth transitions** between themes
-- **Theme toggle button** in navbar (moon/sun icon)
-- **Optimized colors** for both themes
-
-### 🎭 3D Models
-- **Hero Section**: Animated distorting sphere with auto-rotation
-- **Ecosystem Section**: Multiple rotating 3D shapes (spheres, boxes, torus)
-- **Interactive**: Mouse-controlled camera with OrbitControls
-- **Optimized**: GPU-accelerated WebGL rendering
-
-### ✨ Animations (Framer Motion)
-- **Scroll-triggered** animations on all sections
-- **Smooth transitions** between tabs and accordions
-- **Hover effects** on cards and buttons
-- **Interactive** form input animations
-- **Staggered** children animations
-- **Page entrance** animations
-
-### 📱 Responsive Design
-- Mobile-first approach
-- Hamburger menu on mobile
-- Optimized 3D canvas for all devices
-- Touch-friendly interactions
-
-## 📁 Project Structure
+## 🏗️ Project Structure
 
 ```
+VishShield.github.io/
 ├── public/
 │   └── index.html          # HTML template
 ├── src/
 │   ├── components/         # React components
-│   │   ├── Navbar.js       # Navigation + Theme Toggle
+│   │   ├── Navbar.js       # Navigation with theme toggle
 │   │   ├── Hero.js         # Hero with 3D sphere
 │   │   ├── Stats.js        # Animated statistics
-│   │   ├── HowItWorks.js   # Timeline
-│   │   ├── Features.js     # Feature cards
-│   │   ├── Ecosystem.js    # 3D shapes ecosystem
-│   │   ├── Demo.js         # Demo showcase
-│   │   ├── WhoWeSupport.js # Support tabs
-│   │   ├── FAQ.js          # Accordion FAQ
+│   │   ├── Features.js     # Feature showcase
+│   │   ├── Ecosystem.js    # 3D ecosystem visualization
+│   │   ├── Demo.js         # Demo section
+│   │   ├── FAQ.js          # FAQ accordion
 │   │   ├── Contact.js      # Contact form
-│   │   └── Footer.js       # Footer
+│   │   └── Footer.js       # Footer component
 │   ├── contexts/
 │   │   └── ThemeContext.js # Theme state management
-│   ├── App.js              # Main component
-│   ├── App.css             # Global styles + theme variables
-│   ├── index.js            # Entry point
-│   └── index.css           # Base styles
+│   ├── App.js              # Main application
+│   ├── App.css             # Global styles
+│   └── index.js            # Entry point
 ├── package.json            # Dependencies
-└── README.md               # This file
+└── README.md              # This file
 ```
-
-## 🎯 Technologies
-
-| Package | Version | Purpose |
-|---------|---------|---------|
-| **react** | ^18.2.0 | UI Framework |
-| **react-three/fiber** | ^8.16.2 | React renderer for Three.js |
-| **react-three/drei** | ^9.105.4 | 3D helpers |
-| **three** | ^0.163.0 | 3D engine |
-| **framer-motion** | ^11.0.28 | Animation library |
-| **react-icons** | ^5.0.1 | Icon library |
 
 ## 🎨 Customization
 
@@ -110,156 +128,104 @@ Edit `src/App.css`:
 :root[data-theme="light"] {
   --primary-color: #6366f1;
   --secondary-color: #ec4899;
-  /* ... other colors */
+  /* Add your colors */
 }
 
 :root[data-theme="dark"] {
   --primary-color: #818cf8;
   --secondary-color: #f472b6;
-  /* ... other colors */
+  /* Add your colors */
 }
 ```
 
 ### Modify 3D Models
 
-**Hero Sphere** (`src/components/Hero.js`):
-```jsx
-<Sphere args={[1, 100, 200]} scale={2.5}>
-  <MeshDistortMaterial
-    color="#6366f1"  // Change color
-    distort={0.5}    // Change distortion
-    speed={2}        // Change animation speed
-  />
-</Sphere>
-```
+Edit `src/components/Hero.js` or `src/components/Ecosystem.js`:
 
-**Ecosystem Shapes** (`src/components/Ecosystem.js`):
 ```jsx
-<RotatingShape 
-  position={[-2, 2, 0]} 
-  shape="sphere"     // sphere, box, or torus
-  color="#6366f1"    // Any hex color
+<MeshDistortMaterial
+  color="#6366f1"  // Change color
+  distort={0.5}    // Adjust distortion
+  speed={2}        // Change animation speed
 />
-```
-
-### Adjust Animations
-
-Change animation duration in any component:
-```jsx
-<motion.div
-  initial={{ opacity: 0, y: 50 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.6 }} // Adjust here
->
 ```
 
 ## 🚀 Deployment
 
-### Netlify (Recommended)
-1. Build the project: `npm run build`
-2. Drag and drop the `build` folder to [Netlify](https://netlify.com)
+### GitHub Pages (Automatic)
 
-### Vercel
+The project uses GitHub Actions for automatic deployment. Every push to the `main` branch triggers a new deployment.
+
 ```bash
-npm i -g vercel
-vercel
+git add .
+git commit -m "Update website"
+git push origin main
 ```
 
-### GitHub Pages
+Your changes will be live at https://vishshield.github.io in 2-3 minutes.
+
+### Manual Deployment
+
 ```bash
-npm install --save-dev gh-pages
+# Build the project
+npm run build
 
-# Add to package.json:
-"homepage": "https://username.github.io/repo-name",
-"predeploy": "npm run build",
-"deploy": "gh-pages -d build"
-
+# Deploy manually
 npm run deploy
 ```
 
-## 📖 Documentation
+## 🔍 Browser Support
 
-For detailed documentation, see [README-REACT.md](./README-REACT.md)
-
-Topics covered:
-- Theme system implementation
-- 3D model customization
-- Animation system guide
-- Performance optimization
-- Troubleshooting
-- Advanced features
-
-## 🎓 Learn More
-
-- [React Documentation](https://react.dev/)
-- [React Three Fiber Docs](https://docs.pmnd.rs/react-three-fiber)
-- [Framer Motion Docs](https://www.framer.com/motion/)
-- [Three.js Fundamentals](https://threejs.org/manual/)
-
-## 🌐 Browser Support
-
-✅ Chrome (latest 2 versions)  
-✅ Firefox (latest 2 versions)  
-✅ Safari (latest 2 versions)  
-✅ Edge (latest 2 versions)
+| Browser | Version |
+|---------|---------|
+| Chrome | ✅ Latest 2 versions |
+| Firefox | ✅ Latest 2 versions |
+| Safari | ✅ Latest 2 versions |
+| Edge | ✅ Latest 2 versions |
 
 **Note:** WebGL support required for 3D features
 
-## 📝 Available Scripts
+## 📊 Performance
 
-```bash
-npm start          # Start development server
-npm run build      # Build for production
-npm test           # Run tests
-npm run eject      # Eject from Create React App
-```
+- **Bundle Size:** ~500KB (gzipped)
+- **First Contentful Paint:** <1.5s
+- **Time to Interactive:** <3s
+- **Lighthouse Score:** 95+
 
-## 🐛 Issues?
+## 🤝 Contributing
 
-If you encounter any issues:
-1. Clear node_modules: `rm -rf node_modules package-lock.json`
-2. Reinstall: `npm install`
-3. Clear browser cache
-4. Check browser console for errors
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 💡 Features Highlights
+## 📝 License
 
-✅ **Modern React 18** with hooks  
-✅ **3D Animated Sphere** in hero  
-✅ **Multiple 3D Shapes** in ecosystem  
-✅ **Dark/Light Theme** with smooth transitions  
-✅ **Framer Motion** animations throughout  
-✅ **Scroll Animations** on all sections  
-✅ **Interactive Hover Effects**  
-✅ **Tab Switching** with animations  
-✅ **FAQ Accordion** smooth expand/collapse  
-✅ **Form Animations** with validation  
-✅ **Responsive Design** mobile-first  
-✅ **Animated Stats Counter**  
-✅ **Rotating Hero Text**  
-✅ **Partner Marquee** animation  
-✅ **Social Media** icons with effects  
+This project is licensed under the MIT License.
 
-## 🎯 Performance
+## 🌟 Features Overview
 
-- ⚡ Fast loading with code splitting
-- 🎨 GPU-accelerated CSS animations
-- 🖼️ Optimized 3D geometry
-- 📦 Small bundle size (~500KB gzipped)
-- 🚀 Lighthouse score: 95+
+### Core Functionality
+- **Proactive Disruption** - AI bots engage scammers in real-time
+- **Intelligence Extraction** - Capture scammer tactics and data
+- **Actionable Insights** - Analytics and reporting dashboard
 
-## 🌟 Inspiration
+### Target Industries
+- **Telecommunications** - Network protection and call filtering
+- **Financial Services** - Fraud prevention and crypto security
+- **Government** - Citizen protection and investigation tools
 
-Inspired by [apate.ai](https://www.apate.ai/) - An innovative platform for AI-powered scam prevention and intelligence.
+## 📧 Contact
 
-## 📄 License
+- **Website:** https://vishshield.github.io
+- **Email:** contact@vishshield.ai
+- **Repository:** https://github.com/VishShield/VishShield.github.io
 
-Free to use for personal and commercial projects. Attribution appreciated but not required.
+## 🙏 Acknowledgments
+
+- Inspired by [apate.ai](https://www.apate.ai/)
+- Built with React and Three.js communities
+- Powered by modern web technologies
 
 ---
 
-**Built with ❤️ using React, Three.js & Framer Motion**
+**Built with ❤️ using React, Three.js, and Framer Motion**
 
-For questions or support, feel free to open an issue or reach out!
-
-🔗 [Live Demo](#) | 📚 [Full Documentation](./README-REACT.md) | 🐛 [Report Bug](#)
+*Protecting businesses and consumers from fraud through AI-powered intelligence*

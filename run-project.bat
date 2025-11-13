@@ -1,6 +1,6 @@
 @echo off
 echo ========================================
-echo   ScamShield AI - Starting Project
+echo   VishShield AI - Starting Project
 echo ========================================
 echo.
 

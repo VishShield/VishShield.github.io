@@ -82,7 +82,7 @@ const Ecosystem = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          The ScamShield Ecosystem
+          The VishShield Ecosystem
         </motion.h2>
         <motion.p
           className="section-subtitle"

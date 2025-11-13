@@ -8,7 +8,7 @@ const WhoWeSupport = () => {
   const supportData = {
     telcos: {
       title: 'Empower your network with real-time detection',
-      description: 'ScamShield ensures a safer, cleaner, and more trusted network for you and your customers. Our technology integrates seamlessly with your existing infrastructure to provide proactive scam prevention at scale.',
+      description: 'VishShield ensures a safer, cleaner, and more trusted network for you and your customers. Our technology integrates seamlessly with your existing infrastructure to provide proactive scam prevention at scale.',
       benefits: [
         'Real-time call and SMS interception',
         'Seamless SIP/RTP integration',
@@ -18,7 +18,7 @@ const WhoWeSupport = () => {
     },
     financial: {
       title: 'Protect your customers and reputation',
-      description: 'Stay ahead of scammers tactics and deliver a secure, trusted banking experience. ScamShield\'s cutting-edge technology helps you prevent fraud before it impacts your customers.',
+      description: 'Stay ahead of scammers tactics and deliver a secure, trusted banking experience. VishShield\'s cutting-edge technology helps you prevent fraud before it impacts your customers.',
       benefits: [
         'Crypto wallet detection',
         'Account takeover prevention',
@@ -28,7 +28,7 @@ const WhoWeSupport = () => {
     },
     government: {
       title: 'Build a safer, scam-free society',
-      description: 'ScamShield provides governments and law enforcement with the intelligence and tools needed to protect citizens, optimise investigations, and combat organised fraud networks.',
+      description: 'VishShield provides governments and law enforcement with the intelligence and tools needed to protect citizens, optimise investigations, and combat organised fraud networks.',
       benefits: [
         'Cross-border intelligence sharing',
         'Network mapping and analysis',

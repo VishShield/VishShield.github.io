@@ -41,7 +41,7 @@ const Navbar = () => {
             whileTap={{ scale: 0.95 }}
           >
             <span className="logo-icon">🛡️</span>
-            <span className="logo-text">ScamShield AI</span>
+            <span className="logo-text">VishShield AI</span>
           </motion.div>
 
           <ul className={`nav-menu ${mobileMenuOpen ? 'active' : ''}`}>

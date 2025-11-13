@@ -50,10 +50,10 @@ const FAQItem = ({ question, answer, index }) => {
 const FAQ = () => {
   const faqs = [
     {
-      question: 'How does ScamShield Ecosystem work?',
+      question: 'How does VishShield Ecosystem work?',
       answer: (
         <>
-          <p>The ScamShield Ecosystem is an AI-powered solution that proactively combats scams through collaboration with telecommunications providers, financial institutions, and governments. Here's how it works:</p>
+          <p>The VishShield Ecosystem is an AI-powered solution that proactively combats scams through collaboration with telecommunications providers, financial institutions, and governments. Here's how it works:</p>
           <ol>
             <li><strong>Detect:</strong> Identifies scam calls and messages in real-time using advanced AI.</li>
             <li><strong>Engage:</strong> Redirects scammers to AI bots that disrupt their operations with lengthy conversations.</li>
@@ -66,26 +66,26 @@ const FAQ = () => {
     {
       question: 'Why not just block calls?',
       answer: (
-        <p>Blocking calls is only a temporary solution. Scammers adapt quickly by switching numbers or leveraging new technologies. ScamShield takes a smarter approach by actively engaging scammers using AI-powered bots that waste their time and resources, making their operations less profitable. This not only disrupts their activities but also gathers real-time intelligence on their tactics, providing a more effective long-term solution.</p>
+        <p>Blocking calls is only a temporary solution. Scammers adapt quickly by switching numbers or leveraging new technologies. VishShield takes a smarter approach by actively engaging scammers using AI-powered bots that waste their time and resources, making their operations less profitable. This not only disrupts their activities but also gathers real-time intelligence on their tactics, providing a more effective long-term solution.</p>
       )
     },
     {
-      question: 'How is ScamShield Voice implemented?',
+      question: 'How is VishShield Voice implemented?',
       answer: (
-        <p>ScamShield integrates seamlessly into existing systems using SIP/RTP VoIP configurations, enabling telecom providers to effortlessly divert detected scam calls to our AI bots. This integration is highly flexible and can be deployed on-premises, in a private cloud, or as a hybrid solution. With a deployment time of less than a day, ScamShield supports major platforms like AWS, Azure, Google Cloud Platform, and more.</p>
+        <p>VishShield integrates seamlessly into existing systems using SIP/RTP VoIP configurations, enabling telecom providers to effortlessly divert detected scam calls to our AI bots. This integration is highly flexible and can be deployed on-premises, in a private cloud, or as a hybrid solution. With a deployment time of less than a day, VishShield supports major platforms like AWS, Azure, Google Cloud Platform, and more.</p>
       )
     },
     {
       question: 'What if scammers start using AI?',
       answer: (
-        <p>If scammers begin using AI, it only strengthens the case for solutions like ScamShield. When both sides leverage advanced technology, the real advantage is that people are increasingly protected from direct contact with scammers. Our technology is built to adapt to evolving tactics, ensuring that as scammers grow more sophisticated, ScamShield continues to safeguard users effectively.</p>
+        <p>If scammers begin using AI, it only strengthens the case for solutions like VishShield. When both sides leverage advanced technology, the real advantage is that people are increasingly protected from direct contact with scammers. Our technology is built to adapt to evolving tactics, ensuring that as scammers grow more sophisticated, VishShield continues to safeguard users effectively.</p>
       )
     },
     {
-      question: 'How does ScamShield ensure privacy and compliance?',
+      question: 'How does VishShield ensure privacy and compliance?',
       answer: (
         <>
-          <p>ScamShield is built with privacy, security, and regulatory compliance at its core:</p>
+          <p>VishShield is built with privacy, security, and regulatory compliance at its core:</p>
           <ul>
             <li><strong>Data Anonymisation & Encryption:</strong> All information is anonymised and encrypted, with no PII stored.</li>
             <li><strong>Regulatory Compliance:</strong> Full compliance with GDPR, CCPA, and regional data protection laws.</li>

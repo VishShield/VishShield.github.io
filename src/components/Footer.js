@@ -50,10 +50,10 @@ const Footer = () => {
           >
             <div className="footer-logo">
               <span className="logo-icon">🛡️</span>
-              <span className="logo-text">ScamShield AI</span>
+              <span className="logo-text">VishShield AI</span>
             </div>
             <p>
-              ScamShield AI isn't just a defence against scams; it's a mission to dismantle
+              VishShield AI isn't just a defence against scams; it's a mission to dismantle
               the business model of scammers globally.
             </p>
             <div className="social-links">
