@@ -2,7 +2,7 @@
   "name": "scamshield-ai-website",
   "version": "1.0.0",
   "description": "Modern React website with 3D models and dark/light theme",
-  "homepage": "https://shateshsoni.github.io/Apateai-copy",
+  "homepage": "https://vishshield.github.io",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.105.4",
