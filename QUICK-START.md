@@ -1,4 +1,4 @@
-# 🚀 Quick Start Guide - ScamShield AI
+# 🚀 Quick Start Guide - VishShield AI
 
 Get your website running in **3 simple steps**!
 
@@ -85,7 +85,7 @@ Edit `src/components/Hero.js` (around line 25):
 
 ### Update Company Name
 
-1. Search for "ScamShield AI" across all files
+1. Search for "VishShield AI" across all files
 2. Replace with your company name
 3. Save and see changes instantly!
 

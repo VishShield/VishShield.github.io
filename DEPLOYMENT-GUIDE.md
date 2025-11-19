@@ -1,4 +1,4 @@
-# 🚀 Deployment Guide - ScamShield AI
+# 🚀 Deployment Guide - VishShield AI
 
 Your project is now live on GitHub! Here's how to deploy it to the web.
 
@@ -80,7 +80,7 @@ npm run build
 
 ⏱️ **Time:** 1-2 minutes
 
-**Live URL Example:** `https://scamshield-ai-xyz123.netlify.app`
+**Live URL Example:** `https://vishshield-ai-xyz123.netlify.app`
 
 ---
 

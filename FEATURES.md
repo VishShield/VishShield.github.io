@@ -1,4 +1,4 @@
-# ✨ Features Overview - ScamShield AI
+# ✨ Features Overview - VishShield AI
 
 ## 🌓 Theme System
 

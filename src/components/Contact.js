@@ -31,8 +31,8 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: <FiMail size={24} />, title: 'Email', info: 'contact@scamshield.ai' },
-    { icon: <FiPhone size={24} />, title: 'Phone', info: '+1 (555) 123-4567' },
+    { icon: <FiMail size={24} />, title: 'Email', info: 'contact@vishshield.ai' },
+    { icon: <FiPhone size={24} />, title: 'Phone', info: '+1-628-213-8062' },
     { icon: <FiMapPin size={24} />, title: 'Location', info: 'San Francisco, CA' }
   ];
 

@@ -102,7 +102,7 @@ const Footer = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
-          <p>&copy; 2025 ScamShield AI. All rights reserved.</p>
+          <p>&copy; 2025 VishShield AI. All rights reserved.</p>
           <div className="footer-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>

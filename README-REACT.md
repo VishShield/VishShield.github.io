@@ -1,4 +1,4 @@
-# ScamShield AI - React + 3D Models + Dark/Light Theme
+# VishShield AI - React + 3D Models + Dark/Light Theme
 
 A stunning, modern React website with **3D animations**, **dark/light theme toggle**, and **smooth transitions** inspired by apate.ai. Built with React, Three.js, and Framer Motion for the ultimate user experience.
 
@@ -208,7 +208,7 @@ src/
 ## 🎨 Customization Guide
 
 ### 1. Change Company Name
-Search and replace `ScamShield AI` in:
+Search and replace `VishShield AI` in:
 - `src/components/Navbar.js`
 - `src/components/Footer.js`
 - `public/index.html`
